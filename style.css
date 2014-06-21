@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: #b7b6b7 url(images/bg-page.png);
+	margin: 0px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	line-height:16px;
+	color: #222;
+}
+a:link, a:visited{
+	color:#222;
+	text-decoration:none;
+}
+a:active, a:hover{
+	color:#555;
+	text-decoration:none;
+}
+span.red{
+	color:#C00;
+}
+div#wrapper{
+	position:relative;
+	width:100%;
+	min-height:640px;
+	background:url(images/bg-gradient.png) repeat-x top;
+	z-index:1;
+}
+div#wrapper div#nsa_logo{
+	position:absolute;
+	top:49px;
+	left:50%;
+	margin-left:-220px;
+	width:439px;
+	height:440px;
+	background:url(images/logo-nsa.png) no-repeat top;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none;
+	pointer-events:none;
+	z-index:10;
+}
+div#wrapper h1#the_button{
+	position:absolute;
+	top:353px;
+	left:50%;
+	margin:0 0 0 -155px;
+	padding:0;
+	width:310px;
+	height:263px;
+	background:url(images/button-normal.png) no-repeat top;
+	text-indent:-9999px;
+	overflow:hidden;
+	z-index:100;
+}
+div#wrapper h1#the_button a{
+	display:block;
+	width:100%;
+	height:263px;
+}
+div#wrapper h1#the_button:hover{
+	background:url(images/button-hover.png) no-repeat top;
+}
+div#wrapper h1#the_button:active{
+	background:url(images/button-active.png) no-repeat top;
+}
+div#disclaimer{
+	position:relative;
+	width:524px;
+	margin:0 auto 20px;
+	padding:15px 13px;
+	background:#FFF;
+	font-size:10px;
+	line-height:11px;
+	font-style:italic;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+div#disclaimer a:link, div#disclaimer a:visited{
+	color:#c00;
+}
+div#disclaimer p{
+	margin:0 0 11px;
+}
+div#disclaimer p:last-child{
+	margin:0;
+}
+div#news{
+	position:relative;
+	width:524px;
+	margin:0 auto 20px;
+	padding:15px 13px;
+	background:#fff;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+div#news p{
+	padding:0 10px 10px;
+	margin:0 0 10px;
+	border-bottom:1px dotted #bfbfbf;
+}
+div#news p:last-child{
+	padding:0 10px 0;
+	margin:0 0 0;
+	border-bottom:0;
+}
+div#mirror{
+	position:relative;
+	margin: 0 0 20px;
+	text-align:center;
+}
